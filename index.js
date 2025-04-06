@@ -25,7 +25,7 @@ function getCookie(name) {
 
 function checkCookie() {
     let user = getCookie("username");
-    let a = document.getElementById("name"); // Corrected ID
+    let a = document.getElementById("names"); // Corrected ID
 
     if (!a) {
         console.error("Input element with ID 'name' not found.");
