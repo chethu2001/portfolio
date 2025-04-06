@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #05eb9a;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+h1.bo{
+     border-bottom:none;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+ h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.3rem;
+}
+
+.project, .experience {
+    background: #e7e7e7;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.social-media a i {
+    margin-right: 5px;
+}
+
+.social-media a:hover {
+    color: #0073e6;
+}
+
+div.image img{
+    max-width: 200vw;
+    border-radius:100%;
+    
+    animation:Moon 5s ease-in-out infinite;
+    
+    
+
+}
+
+@keyframes Moon{
+    0%{
+        transform:translateX(-200%);
+    }
+    25%{
+        transform:translateX(-100%);
+    }
+    50%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(200%);
+    }
+}
